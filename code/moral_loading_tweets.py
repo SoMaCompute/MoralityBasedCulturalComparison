@@ -26,8 +26,6 @@ def load_mfd_dict(dict_filename):
                 continue   
     return MFTDict
 
-eng_MFTDict=load_mfd_dict('../dataset/eng_mfd.dic')
-jp_MFTDict=load_mfd_dict('../dataset/jp_mfd.dic')
 
 def compute_moral_loadings_tweets(tweets,MFTDict):
     '''
